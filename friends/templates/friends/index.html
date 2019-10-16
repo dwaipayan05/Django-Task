@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% if required_names %}
+    <ol>
+        {% for entry in required_names %}
+        <li>{{ entry }}</li>
+        {% endfor %}
+    </ol>
+{% else  %}
+    <h2>I'm Sorry ,you're leading a sad life</h2>
+{% endif %}
+
+
+
+
+
+
+
+</html>
